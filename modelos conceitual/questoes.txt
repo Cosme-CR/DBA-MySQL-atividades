@@ -1,0 +1,53 @@
+LISTA DE EXERCICIOS – Banco de dados
+
+Desenvolver os exercícios abaixo:
+1. De acordo com seus conhecimentos descreva qual a finalidade de um banco
+de dados, cite softwares conforme a atualidade que fazem o papel de um banco de
+dados SQL e No-SQL.
+
+banco de dados serve para armazenar, organizar, proteger.
+SQL (relacionais): Oracle Database, MySQL, PostgreSQL, MariaDB, SQLite.
+No‑SQL (não relacionais): MongoDB
+
+
+
+2. Considerando os dados elencados na pergunta anterior, cite 10 exemplos de
+necessidades do nosso dia-a-dia ou por empresas que podemos utilizar banco de
+dados como ferramenta principal para sua solução.
+
+Sistemas Bancários
+
+E-commerce: Gestão de inventário, carrinhos de compra e histórico de pedidos.
+
+Streaming (Netflix/Spotify): Armazenamento de catálogos e preferências do usuário.
+
+Redes Sociais: Gerenciamento de perfis, conexões (amigos) e postagens.
+
+Prontuários Médicos: Histórico clínico de pacientes em hospitais.
+
+Sistemas de RH: Folha de pagamento e dados cadastrais de funcionários.
+
+Logística e Rastreamento: Monitoramento de cargas e rotas de entrega.
+
+Educação Online: Registro de notas, frequências e materiais didáticos.
+
+Reserva de Passagens: Controle de assentos em tempo real para aviões ou ônibus.
+
+Aplicativos de Delivery: Gestão de cardápios, pedidos e localização de entregadores.
+
+3. Defina o que é um SGBD, e qual a importância que um SGBD tem em
+relação a um software de banco de dados.
+
+SGBD (Sistema de Gerenciamento de Banco de Dados) é o software que atua 
+como uma camada intermediária entre o usuário (ou aplicação) e o 
+banco de dados físico. que controla a criação, armazenamento, acesso, 
+administração e segurança dos bancos de dados,
+
+
+
+4. Descreva qual a função dos métodos DDL, DML e DCL em uma estrutura de
+um SGBD.
+
+DDL (Data Definition Language): comandos para definir/alterar a estrutura do banco — CREATE, ALTER, DROP, TRUNCATE (tabelas, índices, esquemas).
+DML (Data Manipulation Language): comandos para manipular os dados contidos nas estruturas — SELECT, INSERT, UPDATE, DELETE.
+DCL (Data Control Language): comandos para controlar acesso e permissões — GRANT, REVOKE (controle de privilégios)
