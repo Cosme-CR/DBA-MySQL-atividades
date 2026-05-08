@@ -21,6 +21,7 @@ desc tbl_cidade;
 desc tbl_endereco;
 desc tbl_cliente;
 desc tbl_advogado;
+desc tbl_cliente_contrato;
 
 create table tbl_estado (
 	id 		int not null primary key auto_increment,
@@ -98,7 +99,23 @@ create table tbl_advogado (
 );
 
 
+create table tbl_cliente_contrato (
+	id int not null primary key auto_increment,
 
+	id_cliente 	int not null,
+	id_contrato int not null,
+
+	
+    #Relacionamento da tbl intermediária para cliente
+	constraint FK_CLIENTE_CLIENTECONTRATO
+	foreign key (id_cliente)
+	references tbl_cliente(id),
+    
+    #Relacionamento da tbl intermediária para contrato
+    constraint FK_CONTRATO_CLIENTECONTRATO
+    foreign key(id_contrato)
+    references tbl_contrato(id)
+);
 
 
 
