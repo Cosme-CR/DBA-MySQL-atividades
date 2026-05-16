@@ -1,4 +1,6 @@
+create database db_I; #Cria meu database 
 
+use db_I;
 
 
 #criar tabela projeto
