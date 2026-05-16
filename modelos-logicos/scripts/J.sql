@@ -1,3 +1,7 @@
+create database db_J; #Cria meu database 
+
+use db_J;
+
 #criar tabela restaurante
 create table tbl_restaurante (
     id 		            int   not null primary key auto_increment,
