@@ -1,4 +1,6 @@
+create database db_H; #Cria meu database 
 
+use db_H;
 
 
 #criar tabela conta
